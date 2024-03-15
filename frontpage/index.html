@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h2 class="Welcome_Sherlock">Welcome Sherlock</h2>
+    <nav class="navigation">
+        <a href="about.html">About</a> 
+        <a href="reg.html">Sign-up</a>
+        <a href="#">Contact</a>
+        <button class="login">Log-in</button>
+        <nav>
+            <label for="btn" class="button">Category
+                <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+            </label>
+            <input type="checkbox" id="btn">
+            <ul class="menu">
+                <li><a href="#">home</a></li>
+                <li>
+                    <label for="btn-2" class="first">features
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                    </label>
+                    <input type="checkbox" id="btn-2">
+                    <ul>
+                        <li><a href="#">pages</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <label for="btn-3" class="second">services
+                        <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                    </label>
+                    <input type="checkbox" id="btn-3">
+                    <ul>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">ID</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">ABC</a></li>
+                <li><a href="#">ERT</a></li>
+            </ul>
+        </nav>
+    </nav>
+</header>
+<div class="wrapper">
+    <span class="icon-close">
+        <a href="index.html" ><ion-icon name="close-outline"></ion-icon></a>
+    </span>
+
+    <div class="form-box login">
+        <h2>LOG-IN</h2>
+        <form action="#">
+            <div class="input">
+                <span class="icon">
+                    <ion-icon name="person-circle-outline"></ion-icon>
+                </span>
+                <input type="username" required>
+                <label>User-name</label>
+            </div>
+            <div class="input">
+                <span class="icon">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                </span>
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">
+                Remember me</label>
+                <a href="#">Forgot Password? </a>
+            </div>
+            <button class="button">login</button>
+            <div class="loginregiser">
+                <p>Don't have an account?<a href="reg.html"
+                    class="register-link">
+                    Register</a></p>
+            </div>
+        </form>
+    </div>
+    </div>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
